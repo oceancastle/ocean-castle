@@ -1,0 +1,19 @@
+.followTheConstructionButton{
+  height: 60px;
+  margin: none;
+  background-color: rgba(191, 138, 48, 65%);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover{
+    background-color:  rgb(191, 138, 48);
+  }
+}

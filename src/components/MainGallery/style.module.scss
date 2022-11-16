@@ -1,0 +1,74 @@
+.mainContainer{
+  background-color: var(--gray-200);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .designPage{
+    margin: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start ;
+  }
+
+  .sliderContainer{
+    bottom: 9rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .swiperSlide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+  }
+
+  .imageOfGallery{
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 40px;
+  }
+
+  .detailsContainer{
+    position: relative;
+    bottom: 4.6rem;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .detailsItem{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--blue-800);
+    background-image: url("../../assets/textura.png");
+    color: var(--white);
+    border-radius: 20px 20px 0 0;
+
+    p{
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    span{
+      font-weight: 700;
+    }
+
+    .textSpace{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
