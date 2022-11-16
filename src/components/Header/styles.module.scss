@@ -10,7 +10,7 @@
     
     .logo{
       width: 130px;
-      filter: drop-shadow(0px 0px 3px rgb(0, 0, 0));
+      filter: drop-shadow(0px 0px 1px rgba(17, 17, 17, 0.8));
     }
 
     .textLinks{
@@ -21,8 +21,8 @@
       gap: 3rem;
       font-family: "Inter";
       list-style: none;
-      font-size: 0.83rem;
-      font-weight: 600;
+      font-size: 0.8rem;
+      font-weight: 700;
       filter: drop-shadow(0px 0px 10px rgb(73, 72, 72));
 
       a {
