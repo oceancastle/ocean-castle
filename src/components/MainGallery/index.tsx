@@ -37,6 +37,7 @@ export function MainGallery() {
         <img src={mdaMainGallery} alt="" height={60}/>
         <img src={LinhasDouradas} alt="" className={style.goldenLines} height={150}/>
       </div>
+      <div className={style.displaySliderAndDetails}>
       <div className={style.sliderContainer}>
         <Slider settings={settings}>
           <SwiperSlide className={style.swiperSlide}>
@@ -110,6 +111,8 @@ export function MainGallery() {
           </div>
         </div>
       </div>
+      </div>
+      
     </main>
   )
 }
