@@ -7,7 +7,7 @@ export function Router() {
   return(
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/progressodaobra" element={<ConstructionProgress/>}/>
+      <Route path="/progresso" element={<ConstructionProgress/>}/>
       <Route path="/galeriasmensais" element={<MonthlyGallery/>}/>
     </Routes>
   )
