@@ -8,7 +8,7 @@ import { Buildings, House, HouseLine, HouseSimple } from "phosphor-react"
 
 export function About() {
   return (
-    <body className={style.aboutContainer} id="about">
+    <main className={style.aboutContainer} id="about">
       <div className={style.blurOfInfos}>
         <img src={mdaAbout} alt="Marca D'água - Sobre" height={60} className={style.mdaAbout}/>
         <div className={style.detailsContainer}>
@@ -43,6 +43,6 @@ export function About() {
           <img src={lineDesign} height={150} className={style.lineDesign}/>
           <FollowTheConstructionButton/>
         </div>
-    </body>
+    </main>
   )
 }

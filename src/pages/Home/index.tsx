@@ -13,6 +13,6 @@ export function Home() {
       <About/>
       <MainGallery/>
       <FindUs/>
-    </div>
+    </div >
   )
 }
