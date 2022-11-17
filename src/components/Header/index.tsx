@@ -12,7 +12,7 @@ export function Header() {
           <li><a href="#about">SOBRE</a></li>
           <li><a href="#gallery">GALERIA</a></li>
           <li><a href="#findUs">ENCONTRE-NOS</a></li>
-          <li><a href="/progressodaobra">PROGRESSÃO DA OBRA</a></li>
+          <li><a href="/progresso">PROGRESSÃO DA OBRA</a></li>
         </ul>
         <ul className={style.iconsLinks}>
           <li><a href="https://www.instagram.com/oceancastleitapoa/" target="_blank"><InstagramLogo size={24}/></a></li>
