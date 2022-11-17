@@ -5,8 +5,18 @@ import Galeria2 from "../../assets/ocean4.jpg"
 import Galeria3 from "../../assets/ocean5.jpg"
 import Galeria4 from "../../assets/ocean6.jpg"
 import Galeria5 from "../../assets/ocean7.jpg"
+import Galeria6 from "../../assets/ocean8.jpg"
+import Galeria7 from "../../assets/ocean12.jpg"
+import Galeria8 from "../../assets/ocean13.jpg"
+import Galeria9 from "../../assets/ocean14.jpg"
+import Galeria10 from "../../assets/ocean15.jpg"
+import Galeria11 from "../../assets/ocean16.jpg"
+import Galeria12 from "../../assets/ocean17.jpg"
+import Galeria13 from "../../assets/ocean18.jpg"
+import Galeria14 from "../../assets/ocean19.jpg"
+import Galeria15 from "../../assets/ocean20.jpg"
 import LinhasDouradas from "../../assets/linhasdouradas.svg"
-import { Barbell, Check, CurrencyCircleDollar, Image, LockKey, MapPin, Waves, WaveSawtooth } from "phosphor-react"
+import { Barbell, LockKey, MapPin, Waves } from "phosphor-react"
 import style from "./style.module.scss"
 import mdaMainGallery from "../../assets/mdagallery.svg"
 
@@ -43,6 +53,36 @@ export function MainGallery() {
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
             <img src={Galeria5} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria6} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria7} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria8} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria9} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria10} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria11} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria12} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria13} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria14} alt="" className={style.imageOfGallery}/>
+          </SwiperSlide>
+          <SwiperSlide className={style.swiperSlide}>
+            <img src={Galeria15} alt="" className={style.imageOfGallery}/>
           </SwiperSlide>
         </Slider>
       </div>

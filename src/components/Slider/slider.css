@@ -21,10 +21,6 @@
   
 }
 
-.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-  left: 300px;
-}
-
 @media (max-width: 767px) {
   .swiper{
     width: 75vw;
