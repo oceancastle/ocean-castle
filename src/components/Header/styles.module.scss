@@ -114,7 +114,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    align-items: flex-start;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background-color: var(--blue-800);
@@ -128,7 +128,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-    margin-left: 25vw;
+    // margin-left: 25vw;
     line-height: 0px;
     align-items: center;
   }

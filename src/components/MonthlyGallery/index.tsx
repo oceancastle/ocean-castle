@@ -14,7 +14,7 @@ export function MonthlGallery() {
         setTempImgSrc(url)
         setModel(true)
     }
-
+    
     return (
         <div className="container">
             <img src={mdaMonthlyGallerys} className="mdaMonthlyGallerys" alt="" height={60}/>
