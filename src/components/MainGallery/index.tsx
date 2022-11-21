@@ -35,7 +35,7 @@ export function MainGallery() {
     <main className={style.mainContainer} id="gallery">
       <div className={style.designPage}>
         <img src={mdaMainGallery} alt="" height={60}/>
-        <img src={LinhasDouradas} alt="" className={style.goldenLines} height={150}/>
+        <img src={LinhasDouradas} alt="" className={style.goldenLines}/>
       </div>
       <div className={style.displaySliderAndDetails}>
       <div className={style.sliderContainer}>
@@ -89,22 +89,22 @@ export function MainGallery() {
       </div>
       <div className={style.detailsContainer}>
         <div className={style.detailsItem}>
-          <Barbell size={35}/>
+          <Barbell size={30}/>
           <span>ACADEMIA</span>
         </div>
         <div className={style.detailsItem}>
-          <LockKey size={35}/>
+          <LockKey size={30}/>
           <span>SEGURANÇA</span>
         </div>
         <div className={style.detailsItem}>
-          <Waves size={35}/>
+          <Waves size={30}/>
           <div className={style.textSpace}>
             <p>DE FRENTE PARA O</p>
             <span>MAR</span>
           </div>
         </div>
         <div className={style.detailsItem}>
-          <MapPin size={35}/>
+          <MapPin size={30}/>
           <div className={style.textSpace}>
             <p>EXCELENTE</p>
             <span>LOCALIZAÇÃO</span>

@@ -5,11 +5,11 @@ import logo from "../../assets/logo2.svg"
 import style from "./style.module.scss"
 import { Header } from "../../components/Header";
 
+
 export function ConstructionProgress() {
   return (
     <>
       <Header />
-
       <main className={style.container}>
         <img src={mdaProgressPage} alt="" height={60} className={style.mdaProgressPage} />
         <div className={style.displayFlex}>
@@ -108,13 +108,12 @@ export function ConstructionProgress() {
 
           <div className={style.infoToBuilding}>
             <div className={style.pictureFrame}>
-              <img src={buildingPicture} alt="" width={360}/>
+              <img src={buildingPicture} alt="" />
               <span>Ocean Castle - Itapoá/SC</span>
             </div>
             <img src={logo} alt="" />
           </div>
         </div>
-
       </main>
     </>
 

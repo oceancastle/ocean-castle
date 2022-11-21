@@ -6,13 +6,14 @@
   .displayFlex {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 1rem;
     gap: 4rem;
   }
 
   .mdaProgressPage {
-    margin-top: calc(71.5px + 1rem);
+    margin-top: 1rem;
   }
 
   .progressBarsContainer {
@@ -107,6 +108,26 @@
 
       img{
         border-radius: 30px 30px 0 0;
+        width: 360px;
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .progressBarsContainer{
+    max-width: 90vw;
+  }
+  .progressionBarContainer{
+    max-width: 80vw;
+  }
+  .infoToBuilding{
+    max-width: 90vw;
+    .pictureFrame{
+      max-width: 86vw;
+
+      img{
+        max-width: 80vw;
       }
     }
   }

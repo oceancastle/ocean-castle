@@ -24,6 +24,15 @@
 
     .map{
       filter: drop-shadow(0px 0px 3px rgb(0, 0, 0));
+      width: 70vw;
+    }
+
+    .logo{
+      width: 20vw;
+    }
+
+    .mdaFindUs{
+      height: 60px;
     }
 
     .textLocation{
@@ -35,5 +44,16 @@
       gap: 1rem;
     }
   }
+  .goldenLines{
+    width: 30vw;
+  }
+}
 
+@media (max-width: 800px) {
+  .mdaFindUs{
+    height: 40px;
+  }
+  .findUsContainer{
+    height: auto;
+  }
 }

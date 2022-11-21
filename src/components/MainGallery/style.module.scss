@@ -7,7 +7,7 @@
     margin: 1rem 1rem 0 0;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .displaySliderAndDetails{
@@ -44,13 +44,15 @@
     display: flex;  
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .detailsItem{
     width: 150px;
+    max-width: 20vw;
+    padding: 1rem;
     height: 100px;
-    display: flex;
+    display: flex;  
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -59,8 +61,10 @@
     color: var(--white);
     border-radius: 20px 20px 0 0;
 
+  
+
     p{
-      font-size: 0.8rem;
+      font-size: 0.6rem;
       font-weight: 700;
     }
 
@@ -68,10 +72,29 @@
       font-weight: 700;
     }
 
+
     .textSpace{
       display: flex;
       flex-direction: column;
       align-items: center;
     }
   }
+  .goldenLines{
+    width: 30vw;
+  }
+}
+@media (max-width: 600px) {
+  .detailsItem{
+    padding: 1.3rem;
+    p{
+      text-align: center;
+    }
+    span{
+      font-size: 0.7rem;
+    }
+    svg{
+      width: 25px;
+    }
+  }
+  
 }

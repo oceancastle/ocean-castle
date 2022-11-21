@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ConstructionProgress } from "./pages/ConstructionProgress";
 import { Home } from "./pages/Home";
-import { MonthlyGallery } from "./pages/MonthlyGallery";
+import { Gallerys } from "./pages/Gallerys";
 
 export function Router() {
   return (
@@ -9,7 +9,7 @@ export function Router() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/progresso" element={<ConstructionProgress />} />
-        <Route path="/galeriasmensais" element={<MonthlyGallery />} />
+        <Route path="/galeriasmensais" element={<Gallerys />} />
       </Routes>
     </BrowserRouter>
   )

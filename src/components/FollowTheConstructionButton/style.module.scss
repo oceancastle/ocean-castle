@@ -17,3 +17,9 @@
     background-color:  rgb(191, 138, 48);
   }
 }
+@media (max-width: 540px) {
+  .followTheConstructionButton{
+    height: 40px;
+    font-size: 0.8rem;
+  }
+}

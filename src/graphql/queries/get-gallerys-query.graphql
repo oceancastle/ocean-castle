@@ -1,0 +1,14 @@
+query GetGallerys {
+  galeriasMensais {
+    atualizacoesDoMes
+    createdAt
+    id
+    mesTitulo
+    fotos {
+      id
+      url
+    }
+  }
+}
+
+
