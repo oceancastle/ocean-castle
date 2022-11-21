@@ -12,7 +12,7 @@ export function Header() {
         <label htmlFor="check" className={style.checkbtn}>
           <List color="white" />
         </label>
-        <img src={Logo} alt="Logo" className={style.logo}/>
+        <a href="/"><img src={Logo} alt="Logo" className={style.logo}/></a>
         <ul className={style.linksContainer}>
           <li><a href="/">INÍCIO</a></li>
           <li><a href="#about">SOBRE</a></li>
