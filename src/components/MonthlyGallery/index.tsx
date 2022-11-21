@@ -33,7 +33,7 @@ export function MonthlGallery() {
                             {e.fotos.map((item, index) => (
                                 <>
                                     <div className={"pics"} key={index} onClick={() => getImg(item.url)}>
-                                        <img src={item.url} alt="" style={{ width: "200px", height: "150px" }} />
+                                        <img src={item.url} alt="Fotos das atualizações mensais da obra do Ocean Castle" style={{ width: "200px", height: "150px" }} />
                                     </div>
                                 </>
                             ))}

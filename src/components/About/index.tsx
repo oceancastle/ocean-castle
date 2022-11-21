@@ -46,7 +46,7 @@ export function About() {
         </a>
       </div>
       <div className={style.otherDetails}>
-        <img src={lineDesign} height={150} className={style.lineDesign} />
+        <img src={lineDesign} height={150} className={style.lineDesign}/>
         <FollowTheConstructionButton />
       </div>
     </main>

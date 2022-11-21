@@ -41,49 +41,49 @@ export function MainGallery() {
       <div className={style.sliderContainer}>
         <Slider settings={settings}>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria1} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria1} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria2} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria2} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria3} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria3} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria4} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria4} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria5} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria5} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria6} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria6} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria7} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria7} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria8} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria8} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria9} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria9} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria10} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria10} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria11} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria11} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria12} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria12} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria13} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria13} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria14} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria14} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
           <SwiperSlide className={style.swiperSlide}>
-            <img src={Galeria15} alt="" className={style.imageOfGallery}/>
+            <img src={Galeria15} alt="Fotos do Ocean Castle" className={style.imageOfGallery}/>
           </SwiperSlide>
         </Slider>
       </div>
