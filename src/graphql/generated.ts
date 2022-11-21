@@ -3508,7 +3508,7 @@ export type GetGallerysQuery = { __typename?: 'Query', galeriasMensais: Array<{ 
 
 export const GetGallerysDocument = gql`
     query GetGallerys {
-  galeriasMensais(orderBy: createdAt_DESC) {
+  galeriasMensais(orderBy: createdAt_DESC, where: {AND: {}}, last: 40) {
     atualizacoesDoMes
     createdAt
     id

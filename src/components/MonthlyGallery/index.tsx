@@ -14,36 +14,36 @@ export function MonthlGallery() {
         setTempImgSrc(url)
         setModel(true)
     }
-    
+
     return (
         <div className="container">
-            <img src={mdaMonthlyGallerys} className="mdaMonthlyGallerys" alt="" height={60}/>
-            <div className={model? "model open" : "model"}>
+            <img src={mdaMonthlyGallerys} className="mdaMonthlyGallerys" alt="" height={60} />
+            <div className={model ? "model open" : "model"}>
                 <img src={tempImgSrc} alt="" />
-                <X onClick={() => setModel(false)}/>
+                <X onClick={() => setModel(false)} />
             </div>
             <div className={"gallery"}>
                 {data?.galeriasMensais.map((e) => (
                     <div className={"galleryDisplay"}>
                         <h1>
-                            <Calendar/>
+                            <Calendar />
                             {e.mesTitulo}
                         </h1>
                         <div className={"galleryContainer"}>
                             {e.fotos.map((item, index) => (
                                 <>
                                     <div className={"pics"} key={index} onClick={() => getImg(item.url)}>
-                                        <img src={item.url} alt="" style={{ width: "200px", height: "150px"}} />
+                                        <img src={item.url} alt="" style={{ width: "200px", height: "150px" }} />
                                     </div>
                                 </>
                             ))}
                         </div>
-                        {e.atualizacoesDoMes ?  
-                        <div className="updateTextContainer">
-                            <ClockClockwise size={24}/>
-                            <span>{e.atualizacoesDoMes}</span>
-                        </div> :
-                        <></>
+                        {e.atualizacoesDoMes ?
+                            <div className="updateTextContainer">
+                                <ClockClockwise size={24} />
+                                <span className="updateText">{e.atualizacoesDoMes}</span>
+                            </div> :
+                            <></>
                         }
                     </div>
                 ))}
