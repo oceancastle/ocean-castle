@@ -1,12 +1,15 @@
 .gallery{
   width: 100%;
   display: flex;
-  flex-direction:column;
-  align-items: center;
+  flex-wrap: wrap;
+  /* flex-direction:column; */
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .mdaMonthlyGallerys{
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 
 .galleryDisplay{
@@ -14,8 +17,8 @@
   display:flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: var(--blue-700);
-  width: 70vw;  
+  background-color: var(--white);
+  width: 40vw;  
   gap: 1rem;
   border-radius: 8px;
   color: var(--gray-200);
@@ -71,7 +74,6 @@
 
 .pics img{
   object-fit: cover;
-  border-radius: 8px;
   -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
@@ -144,4 +146,14 @@
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .gallery{
+    flex-direction: column;
+    align-items: center;
+  }
+  .galleryDisplay{
+    width: 70vw;  
+  }
 }
