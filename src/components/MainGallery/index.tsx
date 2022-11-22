@@ -34,8 +34,8 @@ export function MainGallery() {
     
     <main className={style.mainContainer} id="gallery">
       <div className={style.designPage}>
-        <img src={mdaMainGallery} alt="" height={60}/>
-        <img src={LinhasDouradas} alt="" className={style.goldenLines}/>
+        <img src={mdaMainGallery} alt="Marca D'Água" height={60}/>
+        <img src={LinhasDouradas} alt="Detalhes da Página" className={style.goldenLines}/>
       </div>
       <div className={style.displaySliderAndDetails}>
       <div className={style.sliderContainer}>

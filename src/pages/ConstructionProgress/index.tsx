@@ -11,7 +11,7 @@ export function ConstructionProgress() {
     <>
       <Header />
       <main className={style.container}>
-        <img src={mdaProgressPage} alt="" height={60} className={style.mdaProgressPage} />
+        <img src={mdaProgressPage} alt="Marca D'Água" height={60} className={style.mdaProgressPage} />
         <div className={style.displayFlex}>
           <div className={style.progressBarsContainer}>
             <div className={style.progressionBarContainer}>
@@ -111,7 +111,7 @@ export function ConstructionProgress() {
               <img src={buildingPicture} alt="" />
               <span>Ocean Castle - Itapoá/SC</span>
             </div>
-            <img src={logo} alt="" />
+            <img src={logo} alt="Logo" />
           </div>
         </div>
       </main>

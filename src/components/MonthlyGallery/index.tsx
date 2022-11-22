@@ -17,9 +17,9 @@ export function MonthlGallery() {
 
     return (
         <div className="container">
-            <img src={mdaMonthlyGallerys} className="mdaMonthlyGallerys" alt="" height={60} />
+            <img src={mdaMonthlyGallerys} className="mdaMonthlyGallerys" alt="Marca D'Água" height={60} />
             <div className={model ? "model open" : "model"}>
-                <img src={tempImgSrc} alt="" />
+                <img src={tempImgSrc} alt="Model" />
                 <X onClick={() => setModel(false)} />
             </div>
             <div className={"gallery"}>
