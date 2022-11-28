@@ -805,6 +805,7 @@ export type GaleriaMensal = Node & {
   createdAt: Scalars['DateTime'];
   /** User that created this document */
   createdBy?: Maybe<User>;
+  dataDaGaleria?: Maybe<Scalars['Date']>;
   /** Get the document in other stages */
   documentInStages: Array<GaleriaMensal>;
   /**
@@ -902,6 +903,7 @@ export type GaleriaMensalConnection = {
 export type GaleriaMensalCreateInput = {
   atualizacoesDoMes?: InputMaybe<Scalars['String']>;
   createdAt?: InputMaybe<Scalars['DateTime']>;
+  dataDaGaleria?: InputMaybe<Scalars['Date']>;
   fotos?: InputMaybe<AssetCreateManyInlineInput>;
   mesTitulo: Scalars['String'];
   updatedAt?: InputMaybe<Scalars['DateTime']>;
@@ -975,6 +977,21 @@ export type GaleriaMensalManyWhereInput = {
   /** All values that are not contained in given list. */
   createdAt_not_in?: InputMaybe<Array<InputMaybe<Scalars['DateTime']>>>;
   createdBy?: InputMaybe<UserWhereInput>;
+  dataDaGaleria?: InputMaybe<Scalars['Date']>;
+  /** All values greater than the given value. */
+  dataDaGaleria_gt?: InputMaybe<Scalars['Date']>;
+  /** All values greater than or equal the given value. */
+  dataDaGaleria_gte?: InputMaybe<Scalars['Date']>;
+  /** All values that are contained in given list. */
+  dataDaGaleria_in?: InputMaybe<Array<InputMaybe<Scalars['Date']>>>;
+  /** All values less than the given value. */
+  dataDaGaleria_lt?: InputMaybe<Scalars['Date']>;
+  /** All values less than or equal the given value. */
+  dataDaGaleria_lte?: InputMaybe<Scalars['Date']>;
+  /** All values that are not equal to given value. */
+  dataDaGaleria_not?: InputMaybe<Scalars['Date']>;
+  /** All values that are not contained in given list. */
+  dataDaGaleria_not_in?: InputMaybe<Array<InputMaybe<Scalars['Date']>>>;
   documentInStages_every?: InputMaybe<GaleriaMensalWhereStageInput>;
   documentInStages_none?: InputMaybe<GaleriaMensalWhereStageInput>;
   documentInStages_some?: InputMaybe<GaleriaMensalWhereStageInput>;
@@ -1061,6 +1078,8 @@ export enum GaleriaMensalOrderByInput {
   AtualizacoesDoMesDesc = 'atualizacoesDoMes_DESC',
   CreatedAtAsc = 'createdAt_ASC',
   CreatedAtDesc = 'createdAt_DESC',
+  DataDaGaleriaAsc = 'dataDaGaleria_ASC',
+  DataDaGaleriaDesc = 'dataDaGaleria_DESC',
   IdAsc = 'id_ASC',
   IdDesc = 'id_DESC',
   MesTituloAsc = 'mesTitulo_ASC',
@@ -1073,6 +1092,7 @@ export enum GaleriaMensalOrderByInput {
 
 export type GaleriaMensalUpdateInput = {
   atualizacoesDoMes?: InputMaybe<Scalars['String']>;
+  dataDaGaleria?: InputMaybe<Scalars['Date']>;
   fotos?: InputMaybe<AssetUpdateManyInlineInput>;
   mesTitulo?: InputMaybe<Scalars['String']>;
 };
@@ -1096,6 +1116,7 @@ export type GaleriaMensalUpdateManyInlineInput = {
 
 export type GaleriaMensalUpdateManyInput = {
   atualizacoesDoMes?: InputMaybe<Scalars['String']>;
+  dataDaGaleria?: InputMaybe<Scalars['Date']>;
   mesTitulo?: InputMaybe<Scalars['String']>;
 };
 
@@ -1193,6 +1214,21 @@ export type GaleriaMensalWhereInput = {
   /** All values that are not contained in given list. */
   createdAt_not_in?: InputMaybe<Array<InputMaybe<Scalars['DateTime']>>>;
   createdBy?: InputMaybe<UserWhereInput>;
+  dataDaGaleria?: InputMaybe<Scalars['Date']>;
+  /** All values greater than the given value. */
+  dataDaGaleria_gt?: InputMaybe<Scalars['Date']>;
+  /** All values greater than or equal the given value. */
+  dataDaGaleria_gte?: InputMaybe<Scalars['Date']>;
+  /** All values that are contained in given list. */
+  dataDaGaleria_in?: InputMaybe<Array<InputMaybe<Scalars['Date']>>>;
+  /** All values less than the given value. */
+  dataDaGaleria_lt?: InputMaybe<Scalars['Date']>;
+  /** All values less than or equal the given value. */
+  dataDaGaleria_lte?: InputMaybe<Scalars['Date']>;
+  /** All values that are not equal to given value. */
+  dataDaGaleria_not?: InputMaybe<Scalars['Date']>;
+  /** All values that are not contained in given list. */
+  dataDaGaleria_not_in?: InputMaybe<Array<InputMaybe<Scalars['Date']>>>;
   documentInStages_every?: InputMaybe<GaleriaMensalWhereStageInput>;
   documentInStages_none?: InputMaybe<GaleriaMensalWhereStageInput>;
   documentInStages_some?: InputMaybe<GaleriaMensalWhereStageInput>;
@@ -3503,12 +3539,12 @@ export enum _SystemDateTimeFieldVariation {
 export type GetGallerysQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type GetGallerysQuery = { __typename?: 'Query', galeriasMensais: Array<{ __typename?: 'GaleriaMensal', atualizacoesDoMes?: string | null, createdAt: any, id: string, mesTitulo: string, fotos: Array<{ __typename?: 'Asset', id: string, url: string }> }> };
+export type GetGallerysQuery = { __typename?: 'Query', galeriasMensais: Array<{ __typename?: 'GaleriaMensal', atualizacoesDoMes?: string | null, createdAt: any, id: string, mesTitulo: string, dataDaGaleria?: any | null, fotos: Array<{ __typename?: 'Asset', id: string, url: string }> }> };
 
 
 export const GetGallerysDocument = gql`
     query GetGallerys {
-  galeriasMensais(orderBy: createdAt_DESC, where: {AND: {}}, last: 40) {
+  galeriasMensais(orderBy: dataDaGaleria_DESC, last: 40) {
     atualizacoesDoMes
     createdAt
     id
@@ -3517,6 +3553,7 @@ export const GetGallerysDocument = gql`
       id
       url
     }
+    dataDaGaleria
   }
 }
     `;

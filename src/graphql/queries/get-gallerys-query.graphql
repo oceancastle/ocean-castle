@@ -1,5 +1,5 @@
 query GetGallerys {
-  galeriasMensais(orderBy: createdAt_DESC, where: {AND: {}}, last: 40) {
+  galeriasMensais(orderBy: dataDaGaleria_DESC, last: 40) {
     atualizacoesDoMes
     createdAt
     id
@@ -8,5 +8,6 @@ query GetGallerys {
       id
       url
     }
+    dataDaGaleria
   }
 }
