@@ -13,7 +13,7 @@ export function FindUs() {
         <img src={goldenLines} className={style.goldenLines} alt="Detalhes da Página" />
       </div>
       <div className={style.centralize}>
-        <a href="https://www.google.com/maps/place/Ocean+Castle+Home+Club+Itapo%C3%A1/@-26.1253735,-48.5993451,15z/data=!4m2!3m1!1s0x0:0x224d64dca56d3281?sa=X&ved=2ahUKEwjAnN-2hsD7AhWDqJUCHZIkAeQQ_BJ6BAhwEAg"><img src={map} alt="Mapa" className={style.map}/></a>
+        <a href="https://www.google.com/maps/place/Ocean+Castle+Home+Club+Itapo%C3%A1/@-26.1253735,-48.5993451,15z/data=!4m2!3m1!1s0x0:0x224d64dca56d3281?sa=X&ved=2ahUKEwjAnN-2hsD7AhWDqJUCHZIkAeQQ_BJ6BAhwEAg" target="_blank"><img src={map} alt="Mapa" className={style.map}/></a>
         <div className={style.line}></div>
         <img src={logo} alt="Logo" className={style.logo}/>
         <div className={style.textLocation}>
