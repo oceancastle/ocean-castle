@@ -47,9 +47,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"95%"}}></div>
+                  <div className={style.progression} style={{width:"100%"}}></div>
                 </div>
-                <span>95.45%</span>
+                <span>100%</span>
               </div>
             </div>
 
@@ -60,9 +60,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"40%"}}></div>
+                  <div className={style.progression} style={{width:"42%"}}></div>
                 </div>
-                <span>40%</span>
+                <span>42%</span>
               </div>
             </div>
 
@@ -73,9 +73,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"50%"}}></div>
+                  <div className={style.progression} style={{width:"55%"}}></div>
                 </div>
-                <span>50%</span>
+                <span>55%</span>
               </div>
             </div>
 
@@ -86,9 +86,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"88%"}}></div>
+                  <div className={style.progression} style={{width:"93%"}}></div>
                 </div>
-                <span>88%</span>
+                <span>93%</span>
               </div>
             </div>
 
@@ -99,9 +99,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"36%"}}></div>
+                  <div className={style.progression} style={{width:"60%"}}></div>
                 </div>
-                <span>36%</span>
+                <span>60%</span>
               </div>
             </div>
           </div>
