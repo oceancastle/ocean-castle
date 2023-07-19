@@ -1,4 +1,4 @@
-import { Buildings, Lightning, Toilet, Wall, Wrench } from "phosphor-react";
+import { Buildings, Lightning, PaintRoller, SquareHalf, Toilet, Wall, Wrench } from "phosphor-react";
 import mdaProgressPage from "../../assets/mdaconstructionprogress.svg"
 import buildingPicture from "../../assets/predioparaprogressao.svg"
 import logo from "../../assets/logo2.svg"
@@ -47,9 +47,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"100%"}}></div>
+                  <div className={style.progression} style={{width:"95%"}}></div>
                 </div>
-                <span>100%</span>
+                <span>95.45%</span>
               </div>
             </div>
 
@@ -60,9 +60,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"42%"}}></div>
+                  <div className={style.progression} style={{width:"85%"}}></div>
                 </div>
-                <span>42%</span>
+                <span>85%</span>
               </div>
             </div>
 
@@ -73,9 +73,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"55%"}}></div>
+                  <div className={style.progression} style={{width:"85%"}}></div>
                 </div>
-                <span>55%</span>
+                <span>85%</span>
               </div>
             </div>
 
@@ -86,9 +86,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"93%"}}></div>
+                  <div className={style.progression} style={{width:"100%"}}></div>
                 </div>
-                <span>93%</span>
+                <span>100%</span>
               </div>
             </div>
 
@@ -99,12 +99,40 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"60%"}}></div>
+                  <div className={style.progression} style={{width:"95%"}}></div>
                 </div>
-                <span>60%</span>
+                <span>95%</span>
+              </div>
+            </div>
+
+            <div className={style.progressionBarContainer}>
+              <div className={style.iconAndTitle}>
+                <PaintRoller size={20}/>
+                <span>Pintura</span>
+              </div>
+              <div className={style.barContainer}>
+                <div className={style.progressBar}>
+                  <div className={style.progression} style={{width:"40%"}}></div>
+                </div>
+                <span>40%</span>
+              </div>
+            </div>
+
+            <div className={style.progressionBarContainer}>
+              <div className={style.iconAndTitle}>
+                <SquareHalf size={20}/>
+                <span>Esquadrias</span>
+              </div>
+              <div className={style.barContainer}>
+                <div className={style.progressBar}>
+                  <div className={style.progression} style={{width:"70%"}}></div>
+                </div>
+                <span>70%</span>
               </div>
             </div>
           </div>
+
+          
 
           <div className={style.infoToBuilding}>
             <div className={style.pictureFrame}>
