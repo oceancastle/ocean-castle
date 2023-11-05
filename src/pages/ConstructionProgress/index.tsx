@@ -60,9 +60,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"85%"}}></div>
+                  <div className={style.progression} style={{width:"80%"}}></div>
                 </div>
-                <span>85%</span>
+                <span>80%</span>
               </div>
             </div>
 
@@ -73,9 +73,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"85%"}}></div>
+                  <div className={style.progression} style={{width:"95%"}}></div>
                 </div>
-                <span>85%</span>
+                <span>95%</span>
               </div>
             </div>
 
@@ -86,9 +86,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"100%"}}></div>
+                  <div className={style.progression} style={{width:"99%"}}></div>
                 </div>
-                <span>100%</span>
+                <span>99%</span>
               </div>
             </div>
 
@@ -99,9 +99,9 @@ export function ConstructionProgress() {
               </div>
               <div className={style.barContainer}>
                 <div className={style.progressBar}>
-                  <div className={style.progression} style={{width:"95%"}}></div>
+                  <div className={style.progression} style={{width:"98%"}}></div>
                 </div>
-                <span>95%</span>
+                <span>98%</span>
               </div>
             </div>
 
